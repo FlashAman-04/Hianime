@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #201F31;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+ul {
+    list-style: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    margin: 70px 0 30px 0;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav ul li:hover {
+    color: #FFBADE;
+    transition: 0.3s ease;
+}
+
+/* Main Container */
+.box {
+    Width: 1330px;
+    Height: 538px;
+    margin: auto;
+    backdrop-filter: blur(8px);
+    display: flex;
+    overflow: hidden;
+    border-radius: 40px;
+}
+
+/* Left Panel (Content Side) */
+.cont1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2B2A3B;
+    width: 50%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    line-height: 1.8;
+}
+
+/* Logo */
+.logo {
+    height: 38px;
+    width: 160px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Input Box + Search */
+.input {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+input {
+    width: 28vw;
+    height: 48px;
+    border-radius: 12px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 12px;
+}
+
+.s {
+    background-color: #FFBADE;
+    width: 49px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.s img {
+    width: 20px;
+}
+
+/* Right Panel (Image Side) */
+.cont2 {
+    width: 50%;
+    background: linear-gradient(to right, rgba(43, 42, 59, 1) 2%, rgba(43, 42, 59, 0.0) 50%, rgba(43, 42, 59, 0.0) 100%),
+        url('https://hianimez.to/images/anw-min.webp?v=0.1') no-repeat left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+}
+
+.cont3 {
+    width: 100%;
+    height: 100%;
+    background-color: #2B2A3B;
+    opacity: 0.55;
+}
+
+/* Text Paragraph */
+p {
+    width: 416px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* Watch Button */
+.button {
+    height: 60px;
+    width: 17vw;
+    background-color: #FFBADE;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button button {
+    height: 100%;
+    width: 70%;
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+
+.luck {
+    border: none;
+    width: 47%;
+    /* padding: 20px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin: 2rem 1.8rem 2rem 13rem;
+    border-radius: 16px;
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    height: auto;
+}
+
+.pan {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.pan h2 {
+    color: #fff;
+    font-size: 15px;
+}
+
+/* Remove this if already defined globally */
+.luck p {
+    font-size: 15px;
+    width: 90%;
+    color: white;
+    line-height: 1.8;
+}
+
+.parleg {
+    display: flex;
+    gap: 2px;
+}
+
+
+.trending {
+    width: 30vw;
+}
+
+
+.h1 {
+    color: white;
+}
+.h1 h2{
+    margin-top: 3.2rem;
+}
+
+.contain {
+    width: 100%;
+    /* margin-bottom:1rem ; */
+}
+
+.card-box {
+    /* border:1px solid red; */
+    width: 80%;
+    padding: 0.9rem;
+    background-color: #2B2A3C;
+    border-radius: 0.8rem;
+    /* font-size: poppins; */
+    font-family: poppins;
+    margin-bottom: 1rem;
+
+}
+
+.card-box h3 {
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 500;
+
+    margin: 0.5rem 0.8rem;
+
+}
+
+.card-box p {
+    color: #A2A2AA;
+    width: 95%;
+    font-size: 0.75rem;
+    margin: 0.5rem 0.8rem;
+
+}
+
+
+.discussion-time {
+    display: flex;
+    gap: 20px;
+    font-size: 0.75rem;
+    /* justify-content: space-between; */
+}
+
+.time {
+    color: #A2A2AA;
+}
+
+.login-details {
+    display: flex;
+}
+
+.login-details p {
+    color: #A2A2AA;
+    font-size: 0.75rem;
+    width: 66px;
+    margin: 0.5rem 0.8rem;
+}
+
+.chamber {
+    display: flex;
+    color: white;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    margin: 0.5rem 0.8rem;
+}
+
+
+.user-img {
+    background-image: url("https://cdn.noitatnemucod.net/avatar/100x100/deadnote/dead_note_06.png");
+    width: 10%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+
+}
+.read-more button{
+    background-color: #373646;
+    margin: .95rem;
+    padding: .8rem;
+    align-items: center;
+    width: 85%;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+.a2{
+    background-image: url("https://cdn.noitatnemucod.net/avatar/100x100/one_piece/user-03.jpeg");
+    width: 10%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+}
+.a3{
+    background-image: url("https://cdn.noitatnemucod.net/avatar/100x100/zoro_chibi/avatar-09.png");
+    width: 10%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+}
+.a4{
+    background-image: url("https://cdn.noitatnemucod.net/avatar/100x100/zoro_chibi/avatar-12.png");
+    width: 10%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+}
+.a5{
+    background-image: url("https://cdn.noitatnemucod.net/avatar/100x100/jujutsu_kaisen/File10.png");
+    width: 10%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+}
+.a6{
+    background-image: url("https://cdn.noitatnemucod.net/avatar/100x100/one_piece/user-11.jpeg");
+    width: 10%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+}
+.a7{
+    background-image: url("https://cdn.noitatnemucod.net/avatar/100x100/one_piece/user-08.jpeg");
+    width: 10%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+}
+.a8{
+    background-image: url("https://cdn.noitatnemucod.net/avatar/100x100/naruto/naruto_05.png");
+    width: 10%;
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 50%;
+}
+.share{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 13rem;
+}
+.aman{
+    color: #F1B7DE;
+    font-family: poppins;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.vaibhav{
+    color: white;
+    font-size: 0.8rem;
+}
+
+
+
+.luffy{
+    display: flex;
+    gap: 0.6rem;
+    margin: 3.5rem 0px 0px 0px;
+    /* color: grey; */
+    /* align-items: center; */
+}
+
+.likes{
+    /* margin: 3.5rem 0px 0px 0px; */
+    color: grey;
+    display: flex;
+    flex-direction: column;
+}
+
+.view{
+    font-size: 1rem;
+}
+.view-count{
+    font-size:0.6rem;
+    text-align:center;
+}
+
+
+.social{
+    /* border:1px solid red; */
+    padding: 0.1rem 0.9rem;
+    width: 7%;
+    display: flex;
+    gap: 20px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:0.8rem;
+    cursor:pointer;
+    font-weight: 300;
+    /* text-align: center; */
+    background-color:#0673AD ;
+    border-radius:1.5rem;
+}
+
+.social-1{
+    padding: 0.05rem 0.2rem;
+    width: 3%;
+    height: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size:0.8rem;
+    font-weight: 300;
+    /* text-align: center; */
+    /* background-color:##7DAC38 ; */
+    border-radius:1.85rem; 
+}
+
+/* 
+.social:hover{
+    margin-bottom:3.4rem;
+    transition: 0.5s ease-out;
+} */
+
+
+
+.link-video{
+    color: white;
+    text-decoration: none;
+}

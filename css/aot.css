@@ -1,0 +1,541 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color:#201F31; */
+
+}
+
+
+
+.main-content1 {
+    width: 100%;
+    height: 70rem;
+    background-image: url("../images/f2.jpg");
+    background-size: cover;
+    object-fit: cover;
+    background: rgba(255, 255, 255, 0.1);
+    background-repeat: no-repeat;
+    /* border-radius: 1px solid red; */
+    backdrop-filter: blur(12px);
+    /* position: relative;
+    top:100px;
+    left:100px; */
+
+
+}
+
+.flow-line {
+    width: 90%;
+    margin-left:1.2rem ;
+    font-family: poppins;
+    color: white;
+    padding-top: 1rem;
+}
+
+.content {
+    display: flex;
+    color: white;
+    margin: 1.2rem;
+    height:100%;
+}
+
+.content-display {
+    /* width: 20vw; */
+    display: flex;
+    height: 100%;
+}
+
+.seq {
+    width: 20vw;
+    height: 87.57%;
+}
+
+
+.episode-seq {
+    display: flex;
+    /* flex-direction: column; */
+    padding: 0.5rem;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    background-color: black;
+}
+
+.episode-seq p {
+    width: 45%;
+    padding-top: 10px;
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: bold;
+    color: #D9D9D9;
+    /* cursor:pointer; */
+    /* margin: 0.5rem; */
+}
+
+.episode-number {
+    width: 50%;
+    display: flex;
+    gap: 13px;
+    padding: 0.5rem;
+    background-color: black;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid rgb(53, 55, 61);
+
+}
+
+.episode-number input {
+    width: 100%;
+    background-color: black;
+    font-size: 12px;
+    font-weight: bold;
+    /* border-radius: 10px; */
+}
+
+.episode-title {
+    /* height: 59.85rem; */
+    height: 81.5%;
+    /* border: 1px solid red; */
+    overflow: scroll;
+    overflow-x: hidden;
+    text-overflow: ellipsis;
+    scroll-behavior: smooth;
+}
+
+
+.title {
+
+    padding: 0.75rem;
+    padding-right: 3.5rem;
+    /* height:1rem; */
+    white-space: nowrap;
+    /* border: 1px solid rgb(53,55,61); */
+    overflow: hidden;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    height: 45px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: poppins;
+
+}
+
+.t2 {
+    background-color: #2B2A3C;
+}
+
+.title:active {
+    color: #FFBADE;
+    /* transition: 0.5s ease-in-out; */
+}
+
+.title:hover {
+    color: #FFBADE;
+    background-color: #2B2A42;
+    /* transition: 0.5s ease-in-out; */
+}
+
+
+
+
+/* Scroll bar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #14131E;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+a:hover {
+    color: #FFBADE;
+    /* transition: 0.5s ease-in-out; */
+}
+
+
+
+
+
+
+/* video display anime tv */
+
+.anime-tv {
+    width: 55vw;
+    background-color: #11101A;
+    height: 75.7%;
+
+}
+
+.tv {
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    height: 55%;
+}
+
+
+.t1 {
+    background-color: #191826;
+}
+
+video {
+    width: 100%;
+    position: absolute;
+
+}
+
+/*  */
+
+
+
+
+/* Controls outside video */
+
+
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+    margin: 0.75rem;
+    height: 3%;
+}
+
+.advanced-controls {
+    display: flex;
+    gap: 13px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.manual-controls {
+    display: flex;
+    gap: 22px;
+}
+
+.manual-controls i {
+    cursor: pointer;
+}
+
+
+
+/* sub-dub */
+
+
+.lang {
+    display: flex;
+    margin: 0.85rem;
+    /* border: 1px solid red; */
+    border-radius: 8px;
+}
+
+.disclaimer {
+    width: 33%;
+    background-color: #FFBADE;
+    color: black;
+    font-family: poppins;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 8px 0px 0px 8px;
+    text-wrap: wrap;
+    font-size: 14px;
+
+    /* border-radius-left:5px; */
+    /* border-radius: 10px; */
+}
+
+
+.sub-dub {
+    width: 100%;
+}
+
+.sub-server {
+    display: flex;
+    width: 100%;
+    /* flex-direction: flex-start; */
+    gap: 47px;
+    padding: 0.7rem;
+    font-size: 13px;
+    background-color: #201F31;
+    /* border-radius: 0px 8px 0px 0px; */
+    align-items: center;
+    height: 60px;
+}
+
+.sub {
+    display: flex;
+    gap: 14px;
+}
+
+.server {
+    display: flex;
+    gap: 34px;
+}
+
+.hd {
+    padding: 0.25rem 1.3rem;
+    border: 1px solid rgb(53, 55, 61);
+    background-color: #373646;
+    border-radius: 8px;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.hd:hover{
+    color: black;
+    background-color: #FFBADE;
+    /* transition: 0.7s ease-out; */
+}
+
+
+hr.line {
+    border: 1px dotted rgb(53, 55, 61);
+    /* border-style: dotted; */
+}
+
+.class {
+    color: #FFBADE;
+}
+
+
+
+
+/* Season for the anime */
+
+
+h3{
+    font-size: 18px;
+    /* font-family: sans-serif; */
+}
+
+.season {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.season-content {
+    display: flex;
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    padding: 0.7rem;
+    gap: 17px;
+}
+
+.season-box {
+    /* padding: 1.5rem 1.3rem; */
+    width: 156px;
+    border-radius: 11px;
+   
+    /* overflow: hidden; */
+    /* font-size: 5px; */
+    text-wrap: wrap;
+    /* gap: 5px; */
+    text-align: center;
+    position: relative;
+    /* z-index: 1000; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.season1{
+    background-image: url("https://cdn.noitatnemucod.net/thumbnail/300x400/100/debf027d032c6d40b91fab16b2ff9bd4.jpg");
+    object-fit:cover;
+    /* background: transparent; */
+    /* backdrop-filter: blur(8px); */
+    background-size: cover;
+    
+}
+
+.season2{
+    background-image:url("https://cdn.noitatnemucod.net/thumbnail/300x400/100/5d97e8c9a57b03c06dd59650c0a3c693.jpg");
+    object-fit:cover;
+    /* background: transparent; */
+    /* backdrop-filter: blur(8px); */
+    background-size: cover;
+    
+}
+
+.season3{
+    background-image:url("https://cdn.noitatnemucod.net/thumbnail/300x400/100/98b21bfbd9fa3d49ec80ba8fe75ed5cd.jpg");
+    object-fit:cover;
+    /* background: transparent; */
+    /* backdrop-filter: blur(8px); */
+    background-size: cover;
+    background-position: center;
+}
+
+.season4{
+    background-image:url("https://cdn.noitatnemucod.net/thumbnail/300x400/100/83da53919d7a20332be01686141f18f6.jpg");
+    object-fit:cover;
+    /* background: transparent; */
+    /* backdrop-filter: blur(8px); */
+    background-size: cover;
+}
+
+.season5{
+    background-image:url("https://cdn.noitatnemucod.net/thumbnail/300x400/100/160831b6a0c1303e1439925d8f8c7395.jpg");
+    object-fit:cover;
+    /* background: transparent; */
+    /* backdrop-filter: blur(8px); */
+    background-size: cover;
+}
+.season6{
+    background-image:url("https://cdn.noitatnemucod.net/thumbnail/300x400/100/54d3f59bcc7caf1539c701eb0a064ec9.png");
+    object-fit:cover;
+    /* background: transparent; */
+    /* backdrop-filter: blur(8px); */
+    background-size: cover;
+    
+}
+.bgx{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #11101A;
+    opacity: 0.7;
+}
+
+.season-link{
+    /* background-color: #2F2A2D; */
+    /* padding: 1.5rem 1.3rem; */
+    padding-top: 1.4rem;
+    overflow: hidden;
+    /* -webkit-line-clamp: 2; */
+    width: 169px;
+    border-radius: 9px;
+    
+    /* overflow: hidden; */
+    /* font-size: 5px; */
+    text-wrap: wrap;
+    /* gap: 5px; */
+    text-align: center;
+    width: 100%;
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 0;
+    height: 100%;
+    font-size: 12px;
+    font-weight: 600;
+    
+}
+
+/* .season-box a{
+    /* backdrop-filter: blur(12px);
+    background-color:rgba(255, 255, 255, 0.1) */
+
+    
+/* } */ 
+
+
+
+
+/* Content */
+
+
+.explanation{
+    width:20vw;
+    height:160px;
+}
+
+.image{
+    width: 33%;
+    height: 100%;
+    margin-left:1.75rem;
+    /* border: 1px solid red; */
+    /* position: relative;
+    z-index:100; */
+    background-image: url("https://cdn.noitatnemucod.net/thumbnail/300x400/100/debf027d032c6d40b91fab16b2ff9bd4.jpg");
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+
+.explanation h3{
+    margin: 1.65rem;
+    letter-spacing: normal;
+    font-weight: light;
+    line-height: 1.52rem;
+    font-family:Arial;
+    font-size: 1.5rem;
+}
+
+.span{
+    letter-spacing: 2px;
+    font-family: poppins;
+}
+
+.explain{
+    width:100%;
+    margin-left:1.5rem;
+    margin-top:1.25rem;
+    /* border:1px solid red; */
+    font-family:Poppins;
+    /* letter-spacing: 1px; */
+    font-size: 13px;
+    overflow:scroll;
+    overflow-x:hidden;
+    height:100px;
+}
+
+.hianime-explain{
+    overflow:hidden;
+}
+
+.details{
+    margin-left:1.5rem;
+    margin-top:1.25rem;
+    padding: 0.45rem;
+    border-radius:5px;
+    border:none;
+    cursor: pointer;
+}
+
+.details:hover{
+    background-color: #E2E6EA;
+}
+
+.flow-line{
+    /* margin-left:1.5rem; */
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
