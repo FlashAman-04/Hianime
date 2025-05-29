@@ -1,0 +1,1472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/hianimelogo.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <title>Hianime</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav_op">
+
+        </div>
+        <div class="nav">
+
+            <div class="logo">
+                <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+
+                <img src="./images/logo.png" alt="">
+                <div class="input">
+                    <input type="text" placeholder="Search anime...">
+
+
+                    <div class="search">
+
+                        <!-- <img src="./images/search.png" alt=""> -->
+                         <i class="fa fa-search"></i>
+                        <button>Filter</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="icons">
+                <img src="/images/discord.png" alt="">
+                <img src="/images/telegram.png" alt="">
+                <img src="/images/reddit.png" alt="">
+                <img src="/images/twitter.png" alt="">
+
+            </div>
+
+
+            <div class="main-content">
+                <ul>
+                    <li class="item">
+                        <img src="/images/watch2together.png" alt="">
+                        <div class="txt">watch2gether</div>
+                    </li>
+
+                    <li class="item">
+                        <img src="/images/random.png" alt="">
+                        <div class="txt">random</div>
+                    </li>
+
+                    <li class="item">
+                        <div class="enjp">
+                            <span class="en">EN</span> <span class="jp">JP</span>
+                        </div>
+                        <div class="txt">Anime name </div>
+                    </li>
+
+                    <li class="item">
+                        <img src="/images/news.png" alt="">
+                        <div class="txt">news</div>
+                    </li>
+
+                    <li class="item">
+                        <img src="/images/community.png" alt="">
+                        <div class="txt">Community</div>
+                    </li>
+                </ul>
+
+                <button type="submit">Login</button>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <main>
+        <div>
+            <div class="filter-box">
+
+                <h3>Filter</h3>
+                <div class="type">
+
+
+
+                    <div class="type1">
+
+
+                        <div class="filter-type">
+                            <h4>Type</h4>
+                            <input class="kakashi" list="rem" type="text" name="" placeholder="All" id="">
+
+                            <datalist id="rem">
+                                <option value="All">All</option>
+                                <option value="Movie">Movie</option>
+                                <option value="OVA">OVA</option>
+                                <option value="ONA">ONA</option>
+                                <option value="Special">Special</option>
+                                <option value="Not yet Aired">Not yet Aired</option>
+                            </datalist>
+                        </div>
+                        <div class="filter-type">
+                            <h4>Status</h4>
+                            <input class="kakashi" list="chlorinde" type="text" placeholder="All" name="" id="">
+                            <datalist id="chlorinde">
+                                <option value="All">All</option>
+                                <option value="Finished Airing">Finished Airing</option>
+                                <option value="Currently Airing">Currently Airing</option>
+                                <option value="Not yet Aired">Not yet Aired</option>
+                            </datalist>
+                        </div>
+                        <div class="filter-type">
+                            <h4>Rated</h4>
+                            <input class="kakashi" list="beidou" type="text" name="" placeholder="All" id="">
+                            <datalist id="beidou">
+                                <option value="All">All</option>
+                                <option value="G">G</option>
+                                <option value="P">P</option>
+                                <option value="PG-13">PG-13</option>
+                                <option value="R">R</option>
+                                <option value="R+">R+</option>
+                                <option value="Rx">Rx</option>
+                            </datalist>
+                        </div>
+                        <div class="filter-type">
+                            <h4>Score</h4>
+                            <input class="kakashi" list="arlecchino" type="text" name="" placeholder="All" id="">
+                            <datalist id="arlecchino">
+                                <option value="All">All</option>
+                                <option value="Appealing">Appealing</option>
+                                <option value="Horrible">Horrible</option>
+                                <option value="Very Bad">Very Bad</option>
+                                <option value="Bad">Bad</option>
+                                <option value="Average">Average</option>
+                                <option value="Fine">Fine</option>
+                                <option value="Good">Good</option>
+                                <option value="Great">Great</option>
+                                <option value="Masterpiece">Masterpiece</option>
+                            </datalist>
+                        </div>
+                        <div class="filter-type">
+                            <h4>Season</h4>
+                            <input class="kakashi" list="Navia" type="text" name="" placeholder="All">
+
+                            <datalist id="Navia">
+
+                                <option value="All">All</option>
+                                <option value="Spring">Spring</option>
+                                <option value="Summer">Summer</option>
+                                <option value="Fall">Fall</option>
+                                <option value="Winter">Winter</option>
+                        </div>
+                        </datalist>
+                        <div class="filter-type">
+                            <h4>Language</h4>
+                            <input class="kakashi" list="Mavuika" type="text" name="" id="" placeholder="All">
+
+                            <datalist id="Mavuika">
+
+                                <option value="All">All</option>
+                                <option value="SUB">SUB</option>
+                                <option value="DUB">DUB</option>
+                                <option value="SUB & DUB">SUB & DUB</option>
+                            </datalist>
+                        </div>
+                    </div>
+
+                    <div class="type2">
+                        <div class="filter-type">
+                            <h4>Start Date</h4>
+                            <input class="kakashi" list="Lan-yan" type="text" name="" id="" placeholder="Year">
+                            <datalist id="Lan-yan">
+                                <option value="2025">2025</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                            </datalist>
+
+                            <input class="kakashi" list="Raiden-Shogun" type="text" name="" id="" placeholder="Month">
+
+                            <datalist id="Raiden-Shogun">
+                                <option value="Month">Month</option>
+                                <option value="Jan">Jan</option>
+                                <option value="Feb">Feb</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
+                            </datalist>
+
+
+
+                            <input class="kakashi" list="Signora" type="text" name="" id="" placeholder="Date">
+
+
+                            <datalist id="Signora">
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                                <option value="4"></option>
+                                <option value="5"></option>
+                                <option value="6"></option>
+                                <option value="7"></option>
+                                <option value="8"></option>
+                                <option value="9"></option>
+                                <option value="10"></option>
+                                <option value="11"></option>
+                                <option value="12"></option>
+                                <option value="13"></option>
+                                <option value="14"></option>
+                                <option value="15"></option>
+                                <option value="16"></option>
+                                <option value="17"></option>
+                                <option value="18"></option>
+                                <option value="19"></option>
+                                <option value="20"></option>
+                                <option value="21"></option>
+                                <option value="22"></option>
+                                <option value="23"></option>
+                                <option value="24"></option>
+                                <option value="25"></option>
+                                <option value="26"></option>
+                                <option value="27"></option>
+                                <option value="28"></option>
+                                <option value="29"></option>
+                                <option value="30"></option>
+                                <option value="31"></option>
+
+                            </datalist>
+                        </div>
+
+                        <div class="filter-type">
+                            <h4>End Date</h4>
+                            <input class="kakashi" list="Lan-yan" type="text" name="" id="" placeholder="Year">
+                            <datalist id="Lan-yan">
+                                <option value="2025">2025</option>
+                                <option value="2024">2024</option>
+                                <option value="2023">2023</option>
+                                <option value="2022">2022</option>
+                                <option value="2021">2021</option>
+                                <option value="2020">2020</option>
+                            </datalist>
+
+                            <input class="kakashi" list="Raiden-Shogun" type="text" name="" id="" placeholder="Month">
+
+                            <datalist id="Raiden-Shogun">
+                                <option value="Month">Month</option>
+                                <option value="Jan">Jan</option>
+                                <option value="Feb">Feb</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
+                            </datalist>
+
+
+
+                            <input class="kakashi" list="Signora" type="text" name="" id="" placeholder="Date">
+
+
+                            <datalist id="Signora">
+                                <option value="1"></option>
+                                <option value="2"></option>
+                                <option value="3"></option>
+                                <option value="4"></option>
+                                <option value="5"></option>
+                                <option value="6"></option>
+                                <option value="7"></option>
+                                <option value="8"></option>
+                                <option value="9"></option>
+                                <option value="10"></option>
+                                <option value="11"></option>
+                                <option value="12"></option>
+                                <option value="13"></option>
+                                <option value="14"></option>
+                                <option value="15"></option>
+                                <option value="16"></option>
+                                <option value="17"></option>
+                                <option value="18"></option>
+                                <option value="19"></option>
+                                <option value="20"></option>
+                                <option value="21"></option>
+                                <option value="22"></option>
+                                <option value="23"></option>
+                                <option value="24"></option>
+                                <option value="25"></option>
+                                <option value="26"></option>
+                                <option value="27"></option>
+                                <option value="28"></option>
+                                <option value="29"></option>
+                                <option value="30"></option>
+                                <option value="31"></option>
+
+                            </datalist>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>Genre</h3>
+                <div class="type4">
+                    <div class="genre">Action</div>
+                    <div class="genre">Adventure</div>
+                    <div class="genre">cars</div>
+                    <div class="genre">Comedy</div>
+                    <div class="genre">Dementia</div>
+                    <div class="genre">Drama</div>
+                    <div class="genre">Ecchi</div>
+                    <div class="genre">Fantasy</div>
+                    <div class="genre">Game</div>
+                    <div class="genre">Harem</div>
+                    <div class="genre">Historical</div>
+                    <div class="genre">Horror</div>
+                    <div class="genre">Isekai</div>
+                    <div class="genre">Josei</div>
+                    <div class="genre">kids</div>
+                    <div class="genre">Mgic</div>
+                    <div class="genre">Martial Arts</div>
+                    <div class="genre">Mecha</div>
+                    <div class="genre">Military</div>
+                    <div class="genre">Music</div>
+                    <div class="genre">mystery</div>
+                    <div class="genre">Parody</div>
+                    <div class="genre">police</div>
+                    <div class="genre">Psylogical</div>
+                    <div class="genre">Romance</div>
+                    <div class="genre">samurai</div>
+                    <div class="genre">school</div>
+                    <div class="genre">sci-fi</div>
+                    <div class="genre">Seinen</div>
+                    <div class="genre">Shoujo</div>
+                    <div class="genre">Shoujo Ai</div>
+                    <div class="genre">Shounen</div>
+                    <div class="genre">Shounen Ai</div>
+                    <div class="genre">Slice of life</div>
+                    <div class="genre">Space</div>
+                    <div class="genre">Sports</div>
+                    <div class="genre">Super power</div>
+                    <div class="genre">Super Natural</div>
+                    <div class="genre">Thriller</div>
+                    <div class="genre"> Vampire</div>
+
+                </div>
+
+                <div class="btnx">
+                    <h3>Filter</h3>
+                </div>
+            </div>
+
+            <div>
+                <div class="grid">
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/3713cf887e4098f283fef5b0336e6083.jpg
+                            alt="">
+
+                        <a href="">Attack on Titan:Chronicles </a>
+
+                        <p> Movie . 121 min</p>
+
+
+                    </div>
+                    <div class="cards">
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 1 </p>
+                            <p class="max">1</p>
+
+                        </div>
+
+
+                        <img src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/9b17cd8c7479d523d77e5e2cbbb5ad67.jpgalt="">
+
+                        <a href=""> Attack on Titan:The Last Attack</a>
+
+                        <p> Movie . 144 min</p>
+
+
+                    </div>
+
+                    <div class=" cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>23</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 23 </p>
+                            <p class="max">23</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/debf027d032c6d40b91fab16b2ff9bd4.jpg
+                            alt="">
+
+                        <a href=""> Attack on Titan</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>23</p>
+                            
+                            <p class="max">23</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/af56519c52ff5de6a4c6156496395fe6.jpg
+                            alt="">
+
+                        <a href=""> Attack on Tomorrow</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>3</p>
+                            
+                            <p class="max">3</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/c563690ade996fc0f7788a8e961ae7e6.jpg
+                            alt="">
+
+                        <a href=""> Attack on Titan:OVA</a>
+
+                        <p> OVA . 23 min</p>
+
+
+                    </div>
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>12</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 12 </p>
+                            <p class="max">12</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/5dc640871a61596483b630918f8c2e04.jpg
+                            alt="">
+
+                        <a href=""> Loner Life in Another World</a>
+
+                        <p> TV . 23 min</p>
+
+
+                    </div>
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>12</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 12 </p>
+                            <p class="max">12</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/3f3f8b29c4c90a31b150ba24f13c98fb.jpg
+                            alt="">
+
+                        <a href="">Attack on Titan:Junior high </a>
+
+                        <p> TV . 17 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>3</p>
+                            
+                            <p class="max">3</p>
+
+                        </div>
+
+                        <img
+                            src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/98b21bfbd9fa3d49ec80ba8fe75ed5cd.jpgalt="">
+
+                        <a href=""> Attack on Titan Season 3</a>
+
+                        <p> TV . 23 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>2</p>
+                            
+                            <p class="max">2</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/0b1d36294038c6094016be2c5176dd79.jpg
+                            alt="">
+
+                        <a href=""> Attack on Titan:No Regrets</a>
+
+                        <p> OVA . 27 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>12</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 12 </p>
+                            <p class="max">12</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/5d97e8c9a57b03c06dd59650c0a3c693.jpg
+                            alt="">
+
+                        <a href=""> Attack on Titan Saeson 2</a>
+
+                        <p> TV . 23 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>23</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 23 </p>
+                            <p class="max">23</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/ae9effd6c9aba5c4ba6b68f2901c20c9.jpg
+                            alt="">
+
+                        <a href=""> Attack on Titan:lost Girls</a>
+
+                        <p> OVA . 25 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/5789753c0b623c288cf8d70bc8e77325.jpg
+                            alt="">
+
+                        <a href=""> Attack on Titan:Wings of Freedom</a>
+
+                        <p> Movie . 120 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>12</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 12 </p>
+                            <p class="max">12</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/160831b6a0c1303e1439925d8f8c7395.jpg
+                            alt="">
+
+                        <a href=""> Attack on Titan:Final Season,part2</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>16</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 16 </p>
+                            <p class="max">16</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/83da53919d7a20332be01686141f18f6.jpg
+                            alt="">
+
+                        <a href=""> Attack on Titan:Final Season,part 1</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/f8b79c1c7b8153e7b5c64f0cf8b959ef.jpg
+                            alt="">
+
+                        <a href=""> Attack on Titan:crimson Bow and Arrow</a>
+
+                        <p> Movie . 118 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>104</p>
+                            
+                            <p class="max">104</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/0b8aa7b114b01b525f158b5a89fdf291.jpg
+                            alt="">
+
+                        <a href=""> Attack on 1</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>2</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 2 </p>
+                            <p class="max">2</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/54d3f59bcc7caf1539c701eb0a064ec9.png
+                            alt="">
+
+                        <a href=""> Attack on Titan the Final season ,Part 3</a>
+
+                        <p> Movie . 64 min</p>
+
+
+                    </div>
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>3</p>
+                            
+                            <p class="max">3</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/df7b309c2742327031a15905c1c3cb3f.jpg
+                            alt="">
+
+                        <a href="">Jewelpet: Attack Chance!?</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>75</p>
+                            
+                            <p class="max">75</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/e82c43b1faf9b3983b8c29522759a475.jpg
+                            alt="">
+
+                        <a href="">Monster Hunter Stories: Ride On</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>12</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 12 </p>
+                            <p class="max">12</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/e54652d267c7a3c19023ee302e4b9dab.jpg
+                            alt="">
+
+                        <a href=""> Yuri!!! On ICE</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>7</p>
+                            
+                            <p class="max">7</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/dd6b6131a428e424d3de8028cf8bd337.jpg
+                            alt="">
+
+                        <a href=""> K-ON!!: Ura-On!</a>
+
+                        <p> Specials . 30 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>9</p>
+                            
+                            <p class="max">9</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/673e7e41a2236c1567da7a71cdb51501.jpg
+                            alt="">
+
+                        <a href="">K-On!: Ura-On!</a>
+
+                        <p> Specials . 30 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>13</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 13 </p>
+                            <p class="max">13</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/8f57dee1e7e700ae9f564faf842660af.jpg
+                            alt="">
+
+                        <a href=""> K-ON! Season 2</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>26</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 26 </p>
+                            <p class="max">26</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/6553154da420862885081f9f7f8db1c2.jpg
+                            alt="">
+
+                        <a href=""> K-ON!</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/254283d74db79dc28bbbda96fc2e43b7.jpg
+                            alt="">
+
+                        <a href=""> On Your Mark</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>13</p>
+                            
+                            <p class="max">13</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/143c8250ddfeae0aafd9ee7cdf3d0b0c.jpg
+                            alt="">
+
+                        <a href=""> G-On Riders</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>25</p>
+                            >
+                            <p class="max">25</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/bedff09fdcccae89a77435e8a24b02e6.jpg
+                            alt="">
+
+                        <a href="">Aikatsu on Parade!</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 1 </p>
+                           
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/80dbe3a4596ed26a18808f5e81d61583.jpg
+                            alt="">
+
+                        <a href=""> K-ON! The Movie</a>
+
+                        <p> Movie . 115 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 1 </p>
+                            
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/cce34c4672c2082c0da6f15f82368b9f.jpg
+                            alt="">
+
+                        <a href=""> K-On!!: Keikaku!</a>
+
+                        <p> Specials . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/55816b217a675ac97f1b29cca1f5588e.jpg
+                            alt="">
+
+                        <a href=""> On-Gaku: Our Sound</a>
+
+                        <p> Movie . 71 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/fe17dd5c5af97d898d311e5b2d7be050.jpg
+                            alt="">
+
+                        <a href=""> GYO: Tokyo Fish Attack!</a>
+
+                        <p> Movie . 70 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>1</p>
+                            
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/295b1bf1a891ecb44c306ecabed73ee8.jpg
+                            alt="">
+
+                        <a href=""> G-On Riders Special</a>
+
+                        <p> Specials . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>47</p>
+                            <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                    class="fa fa-microphone class" aria-hidden="true"></i> 47 </p>
+                            <p class="max">47</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/de539b2d55cfb7b7c6c0b575de178065.jpg
+                            alt="">
+
+                        <a href="">Patlabor: The Mobile Police - The TV Series</a>
+
+                        <p> TV . 24 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>12</p>
+                            
+                            <p class="max">12</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/ded67528a142931a774873e7f5486d90.jpg
+                            alt="">
+
+                        <a href=""> Tawawa on Monday</a>
+
+                        <p> ONA . 4 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>3</p>
+                            
+                            <p class="max">3</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/97ecb94f901b176c7829d451f71fd13b.jpg
+                            alt="">
+
+                        <a href=""> Ape Escape</a>
+
+                        <p> TV . 15 min</p>
+
+
+                    </div>
+
+                    <div class="cards">
+
+                        <div class="card_cc">
+                            <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                    class="fa fa-cc class" aria-hidden="true"></i>26</p>
+                            
+                            <p class="max">26</p>
+
+                        </div>
+
+                        <img src=https://cdn.noitatnemucod.net/thumbnail/300x400/100/1c573abe71b3e70569127082f4498155.jpg
+                            alt="">
+
+                        <a href="">Aikatsu on Parade! (ONA)</a>
+
+                        <p> ONA . 12 Min</p>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="side-content">
+            <h2 style="color: white;">Most Popular</h2>
+
+            <section>
+                <div class="side-card-main">
+
+
+                    <div class="side-card hen">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/bcd84731a3eda4f4a306250769675065.jpg"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>One-Piece</h3>
+
+                            <div class="ep-number">
+
+                                <p style="background-color: #B0E3AF; color:black; " class="episode "><i
+                                        class="fas fa-closed-captioning " aria-hidden="true"></i>1130</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 1123 </p>
+                                <p class="max">1123</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+
+                </div>
+                <hr class="horizontal">
+                <div class="side-card-main">
+
+
+                    <div class="side-card ">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/9cbcf87f54194742e7686119089478f8.jpg"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>Naruto</h3>
+
+                            <div class="ep-number">
+                                <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                        class="fa fa-cc class" aria-hidden="true"></i>500</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 500 </p>
+                                <p class="max">500</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+
+                </div>
+                <hr class="horizontal">
+                <div class="side-card-main">
+
+
+                    <div class="side-card">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/bd5ae1d387a59c5abcf5e1a6a616728c.jpg"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>Bleach</h3>
+
+                            <div class="ep-number">
+                                <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                        class="fa fa-cc class" aria-hidden="true"></i>366</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 366 </p>
+                                <p class="max">366</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+
+                </div>
+                <hr class="horizontal">
+                <div class="side-card-main">
+
+
+                    <div class="side-card">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/65f92e6e315a931ef872da4b312442b8.jpg"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>Solo-Leveling Season 2: Arise from the Shadows</h3>
+
+                            <div class="ep-number">
+                                <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                        class="fa fa-cc class" aria-hidden="true"></i>13</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 13 </p>
+                                <p class="max">13</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+
+                </div>
+                <hr class="horizontal">
+                <div class="side-card-main">
+
+
+                    <div class="side-card">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/f58b0204c20ae3310f65ae7b8cb9987e.jpg"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>Black Clover</h3>
+
+                            <div class="ep-number">
+                                <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                        class="fa fa-cc class" aria-hidden="true"></i>170</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 170 </p>
+                                <p class="max">170</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+
+                </div>
+                <hr class="horizontal">
+                <div class="side-card-main">
+
+
+                    <div class="side-card">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/b51f863b05f30576cf9d85fa9b911bb5.png"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>Jujutsu Kaisen Season 2</h3>
+
+                            <div class="ep-number">
+                                <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                        class="fa fa-cc class" aria-hidden="true"></i>26</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 26 </p>
+                                <p class="max">26</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+
+                </div>
+                <hr class="horizontal">
+                <div class="side-card-main">
+
+
+                    <div class="side-card">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/32c83e2ad4a43229996356840db3982c.jpg"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>Boruto: Naruto Next Generations</h3>
+
+                            <div class="ep-number">
+                                <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                        class="fa fa-cc class" aria-hidden="true"></i>293</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 293 </p>
+                                <p class="max">293</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+
+                </div>
+                <hr class="horizontal">
+                <div class="side-card-main">
+
+
+                    <div class="side-card">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/db2f3ce7b9cab7fdc160b005bffb899a.png"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>Demon Slayer: Kemeitsu No Yaiba</h3>
+
+                            <div class="ep-number">
+                                <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                        class="fa fa-cc class" aria-hidden="true"></i>1130</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 1123</p>
+                                <p class="max">1123</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+
+                </div>
+                <hr class="horizontal">
+                <div class="side-card-main">
+
+
+                    <div class="side-card">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/5db400c33f7494bc8ae96f9e634958d0.jpg"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>Naruto</h3>
+
+                            <div class="ep-number">
+                                <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                        class="fa fa-cc class" aria-hidden="true"></i>220</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 220 </p>
+                                <p class="max">220</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+
+                </div>
+                <hr class="horizontal">
+                <div class="side-card-main">
+
+
+                    <div class="side-card">
+
+                        <img class="img"
+                            src="https://cdn.noitatnemucod.net/thumbnail/300x400/100/82402f796b7d84d7071ab1e03ff7747a.jpg"
+                            alt="">
+
+                        <div class="side-card-content">
+
+                            <h3>Jujutsu Kaisen (TV)</h3>
+
+                            <div class="ep-number">
+                                <p style="background-color: #B0E3AF; color:black; " class="episode"><i
+                                        class="fa fa-cc class" aria-hidden="true"></i>1130</p>
+                                <p style="background-color: #B9E7FF; color:black;" class="episode"><i
+                                        class="fa fa-microphone class" aria-hidden="true"></i> 1123 </p>
+                                <p class="max">1123</p>
+                                <span>. TV</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <i class="fa fa-plus fa-lg add" aria-hidden="true"></i>
+                </div>
+
+            </section>
+            <div class="lgyt">
+                <h2>Genres</h2>
+                <div class="genres">
+
+                    <div class="itachi g1">Action</div>
+                    <div class="itachi p1">Adventure</div>
+                    <div class="itachi r1">Cars</div>
+                    <div class="itachi p2">Comedy</div>
+                    <div class="itachi b1">Dementia</div>
+                    <div class="itachi o1">Demons</div>
+                    <div class="itachi b2">Drama</div>
+                    <div class="itachi g1">Ecchi</div>
+                    <div class="itachi p1">Fantasy</div>
+                    <div class="itachi r1">Game</div>
+                    <div class="itachi p2">Harem</div>
+                    <div class="itachi b1">Historical</div>
+                    <div class="itachi o1">Horror</div>
+                    <div class="itachi b2">Isekai</div>
+                    <div class="itachi g1">Josei</div>
+                    <div class="itachi p1">Kids</div>
+                    <div class="itachi r1">Magic</div>
+                    <div class="itachi p2">Martial Art</div>
+                    <div class="itachi b1">Mecha</div>
+                    <div class="itachi o1">Military</div>
+                    <div class="itachi b2">Music</div>
+                    <div class="itachi g1">Mystery</div>
+                    <div class="itachi p1">Parody</div>
+                    <div class="itachi r1">Police</div>
+                    <div class="itachi p2 c2">Psychological</div>
+                    <div class="itachi b1">Romance</div>
+                    <div class="itachi o1">Samurai</div>
+                    <div class="itachi b2">School</div>
+                    <div class="itachi g1">Sci-Fi</div>
+                    <div class="itachi p1">Seinen</div>
+                    <div class="itachi r1">Shouja</div>
+                    <div class="itachi p2">Shouja Ai</div>
+                    <div class="itachi b1">Shounen</div>
+                    <div class="itachi o1">Shounen Ai</div>
+                    <div class="itachi b2">Slice of Life</div>
+                    <div class="itachi g1">Space</div>
+                    <div class="itachi p1">Sports</div>
+                    <div class="itachi r1">Super Power</div>
+                    <div class="itachi p2">Supernatural</div>
+                    <div class="itachi b1">Thriller</div>
+                    <div class="itachi o1">Vampire</div>
+                    <div class="itachi p1">Hentai</div>
+                    <button class="show">Show Less</button>
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+</body>
+</html>
